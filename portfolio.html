@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrews Frankenstein</title>
+
+    <link rel="stylesheet" href="frankensteinCSS.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo"> Frankenstein Project</label>
+    <uL>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="Portfolio.html">Portfolio</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Extra.html">Extra</a></li>
+    </uL>
+  </nav>
+
+  <div class="hero">
+    <div class="carousel">
+      <ul>
+        <li><img src="pics/fantasy-spooky.jpg"></li>
+        <li><img src="pics/Deer.jpg"></li>
+        <li><img src="pics/african-lion.jpg"></li>
+        <li><img src="pics/fantasy-dragon.jpg"></li>
+
+      </ul>
+    </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="jquery.flipster.min.js"></script>
+
+  <script>
+    $('.carousel').flipster({
+      style:'carousel',
+      spacing: -0.3,
+    });
+</script>
+
+
+
+<section>
+  <footer>
+    <div class="footer-content">
+      <h3>Social Media</h3>
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</section>
+</body>
+</html>
